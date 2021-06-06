@@ -76,7 +76,7 @@ const createRow = (name: string, type: string, damage: string) => ({
   damage,
 })
 
-const CardItem: React.FC<{
+const Pokemon: React.FC<{
   pokemon: IPokemon
   onClickEvolution: (name: string) => void
 }> = ({
@@ -306,4 +306,4 @@ const CardItem: React.FC<{
     </Paper>
   )
 }
-export default CardItem
+export default Pokemon

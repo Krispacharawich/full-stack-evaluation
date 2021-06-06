@@ -64,7 +64,7 @@ describe('test search-pokemon', () => {
     'should get pokemon %p with expected type %p by search input',
     async (pokemonName, type) => {
       const history = createMemoryHistory()
-      history.push(`/`)
+      history.push('/')
 
     render(
         <Router history={history}>
